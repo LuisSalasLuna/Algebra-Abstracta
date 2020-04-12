@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1586196379 source:d:\usuarios\luis\documents\ucsp\3er sem\ccii\practica string\main.cpp
+	<iostream>
+	<string>
+	<math.h>
+	<fstream>
+	<ctime>
+	<stdlib.h>
+

@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1586118473 source:d:\usuarios\luis\documents\ucsp\3er sem\ccii\cap18\main.cpp
+	<iostream>
+	<string>
+	<cstring>
+
+1586127790 source:k:\cap18\main.cpp
+	<iostream>
+	<string>
+	<cstring>
+
+1586198158 source:e:\cap18\main.cpp
+	<iostream>
+	<string>
+	<cstring>
+	<stdlib.h>
+
