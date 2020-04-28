@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1587500450 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\vernam\main.cpp
+	<iostream>
+	<Vernam.h>
+
+1587500943 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\vernam\src\vernam.cpp
+	"Vernam.h"
+	"math.h"
+
+1587492798 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\vernam\include\vernam.h
+	<iostream>
+

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1588043990 source:d:\usuarios\luis\documents\escitala\main.cpp
+	<iostream>
+	"Escitala.h"
+
+1588043990 d:\usuarios\luis\documents\escitala\include\escitala.h
+	<string>
+	<iostream>
+
+1588043990 source:d:\usuarios\luis\documents\escitala\src\escitala.cpp
+	"Escitala.h"
+
