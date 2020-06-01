@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1591034200 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\algoritmos de encriptacion\monomio binomio\src\monomiobinomio.cpp
+	"MonomioBinomio.h"
+	<ctime>
+
+1591030919 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\algoritmos de encriptacion\monomio binomio\include\monomiobinomio.h
+	<iostream>
+
+1591034256 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\algoritmos de encriptacion\monomio binomio\main.cpp
+	<iostream>
+	<MonomioBinomio.h>
+

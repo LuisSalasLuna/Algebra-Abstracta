@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1591036415 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\algoritmos de encriptacion\rail fence\src\railfence.cpp
+	"RailFence.h"
+
+1591036364 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\algoritmos de encriptacion\rail fence\include\railfence.h
+	<iostream>
+
+1591036432 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\algoritmos de encriptacion\rail fence\main.cpp
+	<iostream>
+	<RailFence.h>
+

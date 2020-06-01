@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1591033745 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\algoritmos de encriptacion\polybios\main.cpp
+	<iostream>
+	<Polybios.h>
+
+1591033745 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\algoritmos de encriptacion\polybios\include\polybios.h
+	<iostream>
+
+1591033745 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\algoritmos de encriptacion\polybios\src\polybios.cpp
+	"Polybios.h"
+
