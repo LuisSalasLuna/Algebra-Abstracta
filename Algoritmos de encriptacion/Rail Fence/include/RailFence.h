@@ -13,9 +13,10 @@ private:
     bool regr;
 public:
     RailFence(int, string);
+    ~RailFence();
     void print();
-    string cifrar2();
-    string descifrar2();
+    string cifrar();
+    string descifrar();
 };
 
 #endif // RAILFENCE_H

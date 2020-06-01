@@ -26,6 +26,12 @@ RailFence::RailFence(int num, string mensaje)
     }
     print();
 }
+RailFence::~RailFence()
+{
+    for(int i=0 ; i < len ; i++)
+        delete[] arr[i];
+    delete[] arr;
+}
 void RailFence::print(){
     cout << endl;
     for(int i = 0 ; i < clave ; i++){
@@ -36,7 +42,7 @@ void RailFence::print(){
     }
     cout << endl;
 }
-string RailFence::cifrar2()
+string RailFence::cifrar()
 {
     string cifrado;
     for(int i = 0 ; i < clave; i++){
@@ -48,7 +54,7 @@ string RailFence::cifrar2()
     }
     return cifrado;
 }
-string RailFence::descifrar2()
+string RailFence::descifrar()
 {
     string descifrado;
     int j = 0;
