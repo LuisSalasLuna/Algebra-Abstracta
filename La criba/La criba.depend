@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1591647050 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\la criba\main.cpp
+	<iostream>
+	<Criba.h>
+
+1591647062 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\la criba\src\criba.cpp
+	"Criba.h"
+
+1591647050 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\la criba\include\criba.h
+	<iostream>
+	<cmath>
+
