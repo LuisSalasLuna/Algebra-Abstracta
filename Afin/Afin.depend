@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1591640596 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\afin\main.cpp
+	<iostream>
+	<Afin.h>
+
+1591641723 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\afin\include\afin.h
+	<iostream>
+	<ctime>
+
+1591641723 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\afin\src\afin.cpp
+	"Afin.h"
+	"Omath.h"
+
+1591641611 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\afin\src\omath.h
+	<iostream>
+
+1591641611 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\afin\include\omath.h
+	<iostream>
+
