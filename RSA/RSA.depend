@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1592255854 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa\main.cpp
+	<iostream>
+	<RSA.h>
+
+1592256866 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa\include\rsa.h
+	<iostream>
+
+1592256897 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa\src\rsa.cpp
+	"RSA.h"
+	"Omath.h"
+	"Criba.h"
+
+1592256865 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa\src\omath.h
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
+1592247301 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa\include\criba.h
+	<iostream>
+	<cmath>
+	<stdlib.h>
+	<time.h>
+
+1592255841 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa\src\criba.cpp
+	"Criba.h"
+
