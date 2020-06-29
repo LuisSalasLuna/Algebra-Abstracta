@@ -26,19 +26,5 @@ class RSA
         int StringInt(string);
         string Cifrar2(string);
         string Descifrar2(string);
-        //ppt
-        /*RSA(int bits);
-        RSA(ZZ,ZZ);
-        virtual ~RSAC(void);
-        ZZ exponenciacion(ZZ , ZZ);
-        ZZ resto_chino(ZZ);
-        string cifrar(string);
-        string descifra_mensaje(string);
-        long euclides(ZZ a, ZZ b);
-        vector extendido_euclides(ZZ a, ZZ b);
-        ZZ inversa(ZZ a, ZZ b);
-        ZZ generar_aleatorio(int);
-        bool test_primalidad(ZZ);
-        */
 };
 #endif // RSA_H

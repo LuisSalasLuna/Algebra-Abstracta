@@ -10,9 +10,10 @@ RSA::RSA(int bits)
     while(p == q){q = a.RandPrimos();}
     N = p*q;
     fN = (p-1)*(q-1);
-    e = a.RandPrimos();// e = q, siempre
+    e = a.RandPrimos();
+    while(e == q){e = a.RandPrimos();}
     d = InversaMultiplicativa(e,fN);
-    cout <<" p = "<< p <<"  q = "<< q <<"  N = "<< N <<"  fN = "<< fN <<"  e = "<< e <<"  d = "<< d << endl<< endl;
+    cout <<" p = "<< p <<"  q = "<< q <<"  N = "<< N <<"  fN = "<< fN <<"  e = "<< e <<"  d = "<< d << endl;
 }
 RSA::RSA(int _p, int _q, int _e)
 {
@@ -24,7 +25,7 @@ RSA::RSA(int _p, int _q, int _e)
     fN = (p-1)*(q-1);
     e = _e;
     d = InversaMultiplicativa(e,fN);
-    cout <<" p = "<< p <<"  q = "<< q <<"  N = "<< N <<"  fN = "<< fN <<"  e = "<< e <<"  d = "<< d << endl<< endl;
+    cout <<" p = "<< p <<"  q = "<< q <<"  N = "<< N <<"  fN = "<< fN <<"  e = "<< e <<"  d = "<< d << endl;
 }
 int RSA::Pot2(int base,int exp){
     int result = 1;
@@ -61,7 +62,7 @@ string RSA::IntString(int a, int tam){
         s += char(b+48);
     }
     for(int i = 0 ; i < tam/2 ; i++){
-        swap(s[i],s[tam-1]);
+        swap(s[i],s[tam-i-1]);
     }
     return s;
 }

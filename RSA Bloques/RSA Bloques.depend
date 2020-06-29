@@ -1,13 +1,13 @@
 # depslib dependency file v1.0
-1592864650 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques\main.cpp
+1593467160 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques\main.cpp
 	<iostream>
 	<RSA.h>
 
-1592863966 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques\include\rsa.h
+1593466201 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques\include\rsa.h
 	<Criba.h>
 	<iostream>
 
-1592865072 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques\src\rsa.cpp
+1593467457 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques\src\rsa.cpp
 	"RSA.h"
 	"Omath.h"
 
