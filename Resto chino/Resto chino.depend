@@ -16,11 +16,11 @@
 
 1592841816 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\resto chino\include\opmath.h
 
-1592840807 source:d:\usuarios\luis\desktop\resto chino\main.cpp
+1593465687 source:d:\usuarios\luis\desktop\resto chino\main.cpp
 	<iostream>
 	<RestoChino.h>
 
-1592842774 d:\usuarios\luis\desktop\resto chino\include\restochino.h
+1593465638 d:\usuarios\luis\desktop\resto chino\include\restochino.h
 	<iostream>
 
 1592841816 d:\usuarios\luis\desktop\resto chino\include\opmath.h
@@ -28,6 +28,6 @@
 1592842587 d:\usuarios\luis\desktop\resto chino\include\omath.h
 	<iostream>
 
-1592842768 source:d:\usuarios\luis\desktop\resto chino\src\restochino.cpp
+1593465638 source:d:\usuarios\luis\desktop\resto chino\src\restochino.cpp
 	"RestoChino.h"
 

@@ -5,8 +5,11 @@ using namespace std;
 
 int main()
 {
-    RestoChino g(4);
-    g.Resolver();
+    int ec;
+    cout << "Numero de ecuaciones: ";
+    cin >> ec;
+    RestoChino g(ec);
+    cout << g.Resolver();;
 
     return 0;
 }

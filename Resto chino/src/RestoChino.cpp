@@ -91,7 +91,7 @@ void RestoChino::PrimosRelativos(){
     }
     else{ p = 0;}
 }
-void RestoChino::Resolver(){
+int RestoChino::Resolver(){
     if(p){
         int result = 0;
         cout <<"\n";
@@ -105,7 +105,8 @@ void RestoChino::Resolver(){
         cout <<"\n "<< result <<" mod "<< p << endl;
         result = Mod(result, p);
         cout <<" x = "<< result <<" + "<< p << "k"<< endl;
+        return result;
     }
-    else{cout << " Bases no coprimas, Irresoluble" <<  endl;}
+    else{cout << " Bases no coprimas, Irresoluble" <<  endl;return 0;}
 }
 

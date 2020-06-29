@@ -16,7 +16,7 @@ class RestoChino{
         ~RestoChino();
         void print();
         void PrimosRelativos();
-        void Resolver();
+        int Resolver();
         void Solucion();
 };
 #endif // RESTOCHINO_H
