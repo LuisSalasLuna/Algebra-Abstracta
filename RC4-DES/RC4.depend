@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1593463556 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rc4\main.cpp
+	<iostream>
+	<windows.h>
+	<RC4.h>
+
+1593463398 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rc4\src\rc4.cpp
+	"RC4.h"
+
+1593460739 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rc4\include\rc4.h
+	<iostream>
+	<cmath>
+	<fstream>
+
+1594067195 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rc4-des\main.cpp
+	<iostream>
+	<windows.h>
+	<RC4.h>
+	<DES.h>
+	<NTL/ZZ.h>
+
+1593969315 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rc4-des\include\rc4.h
+	<iostream>
+	<cmath>
+	<fstream>
+
+1594050608 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rc4-des\src\rc4.cpp
+	"RC4.h"
+
+1594066679 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rc4-des\src\des.cpp
+	"DES.h"
+
+1594067717 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rc4-des\include\des.h
+	<iostream>
+
