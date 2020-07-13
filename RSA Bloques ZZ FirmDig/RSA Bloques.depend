@@ -83,16 +83,16 @@
 	<time.h>
 	<NTL/ZZ.h>
 
-1594623097 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz firmdig\main.cpp
+1594672671 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz firmdig\main.cpp
 	<iostream>
 	<RSA.h>
 	<NTL/ZZ.h>
 
-1594623443 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz firmdig\include\rsa.h
+1594666999 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz firmdig\include\rsa.h
 	<iostream>
 	<NTL/ZZ.h>
 
-1594623710 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz firmdig\src\rsa.cpp
+1594672929 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz firmdig\src\rsa.cpp
 	"RSA.h"
 	"Omath.h"
 

@@ -20,6 +20,7 @@ class RSA
         string alfabeto;
     public:
         RSA(ZZ, ZZ, ZZ);
+        RSA(ZZ, ZZ);
         ZZ GetN();
         ZZ GetCPub();
         ZZ Pot2(ZZ, ZZ, ZZ);

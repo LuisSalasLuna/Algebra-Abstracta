@@ -3,14 +3,27 @@
 
 RSA::RSA(ZZ _p, ZZ _q, ZZ _e)
 {
-    //alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ,.-( )abcdefghijklmnopqrstuvwxyz<>*1234567890";
-    alfabeto = "abcdefghijklmnopqrstuvwxyz0123456789";
+    alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ,.-( )abcdefghijklmnopqrstuvwxyz<>*1234567890";
+    //alfabeto = "abcdefghijklmnopqrstuvwxyz0123456789";
     p = _p;
     q = _q;
     N = p*q;
     fN = (p-1)*(q-1);
     e = _e;
     d = InversaMultiplicativa(e,fN);
+    cout <<" ----------------------------------------"<< endl;
+    cout <<" p = "<< p <<"\n q = "<< q <<"\n N = "<< N <<"\n fN = "<< fN <<"\n e = "<< e <<"\n d = "<< d << endl;
+}
+RSA::RSA(ZZ _N, ZZ _e)
+{
+    alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ,.-( )abcdefghijklmnopqrstuvwxyz<>*1234567890";
+    //alfabeto = "abcdefghijklmnopqrstuvwxyz0123456789";
+    p = 1;
+    q = 1;
+    N = _N;
+    fN = 1;
+    e = _e;
+    d = 1;
     cout <<" ----------------------------------------"<< endl;
     cout <<" p = "<< p <<"\n q = "<< q <<"\n N = "<< N <<"\n fN = "<< fN <<"\n e = "<< e <<"\n d = "<< d << endl;
 }
@@ -28,6 +41,7 @@ ZZ RSA::Pot2(ZZ base,ZZ exp, ZZ mod){
 ZZ RSA::RestoChino(ZZ num){
     ZZ P = N;
     ZZ arr[2][2] = {{Pot2(num,Modulo(d,p-1), p),p},{Pot2(num,Modulo(d,q-1),q),q}};
+    cout << arr[0][0] <<"  "<< arr[1][0] << endl;
     ZZ result = ZZ(0);
     for(int i = 0 ; i < 2 ; i++){
         ZZ C = P/arr[i][1];
@@ -35,7 +49,7 @@ ZZ RSA::RestoChino(ZZ num){
         result += (arr[i][0]*C*D);
     }
     result = Modulo(result, P);
-    //cout << result << endl;
+    cout << result << endl;
     return result;
 }
 ZZ RSA::Cifrar(char ch)
@@ -197,6 +211,7 @@ string RSA::DescifrarRC(string cif){
         ZZ div = StringInt(subcad);
         //cout << div <<endl;
         ZZ pt = RestoChino(div);
+        //cout << pt <<endl;
         int dig = Digits(pt);
         for(int j = dig ; j < digN-1 ; j++){descifrado += "0";}
         descifrado += IntString(pt,dig);
