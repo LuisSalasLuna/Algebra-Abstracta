@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1593542736 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques\main.cpp
+	<iostream>
+	<RSA.h>
+
+1593466201 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques\include\rsa.h
+	<Criba.h>
+	<iostream>
+
+1593467457 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques\src\rsa.cpp
+	"RSA.h"
+	"Omath.h"
+
+1592256865 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques\src\omath.h
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
+1592851194 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques\src\criba.cpp
+	"Criba.h"
+
+1592851015 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques\include\criba.h
+	<iostream>
+	<cmath>
+	<ctime>
+
+1594589927 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz\main.cpp
+	<iostream>
+	<RSA.h>
+	<NTL/ZZ.h>
+
+1594590343 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz\include\rsa.h
+	<iostream>
+	<NTL/ZZ.h>
+
+1592851015 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz\include\criba.h
+	<iostream>
+	<cmath>
+	<ctime>
+
+1592851194 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz\src\criba.cpp
+	"Criba.h"
+
+1594589911 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz\src\rsa.cpp
+	"RSA.h"
+	"Omath.h"
+
+1594578665 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz\src\omath.h
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<NTL/ZZ.h>
+
+1594615048 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz rech\main.cpp
+	<iostream>
+	<RSA.h>
+	<NTL/ZZ.h>
+
+1594614783 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz rech\include\rsa.h
+	<iostream>
+	<NTL/ZZ.h>
+
+1594615153 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz rech\src\rsa.cpp
+	"RSA.h"
+	"Omath.h"
+
+1594610862 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz rech\src\omath.h
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<NTL/ZZ.h>
+
+1594612188 source:d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz rech\src\restochino.cpp
+	"RestoChino.h"
+
+1594613711 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz rech\include\restochino.h
+	<iostream>
+	<NTL/ZZ.h>
+
+1594610862 d:\usuarios\luis\documents\ucsp\3er sem\algebra abstracta\rsa bloques zz rech\include\omath.h
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<NTL/ZZ.h>
+
